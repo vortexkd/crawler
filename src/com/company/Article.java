@@ -18,7 +18,7 @@ public class Article {
 
     @Override
     public String toString() {
-        return this.title+","+this.category+","+this.postTime+","+this.url;
+        return "\""+this.title+"\",\""+this.category+"\",\""+this.postTime+"\",\""+this.url+"\"";
     }
 
     static String urlMaker(String relativeLocation, String base){
